@@ -2,8 +2,15 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
+  { path: '', redirectTo: 'initial', pathMatch: 'full' },
+  {
+    path: 'initial',
+    loadChildren: () => import('./pages/initial/initial.module').then( m => m.InitialPageModule)
+  },
+  {
+    path: 'chat/:id',
+    loadChildren: () => import('./pages/chat/chat.module').then( m => m.ChatPageModule)
+  }
 ];
 
 @NgModule({

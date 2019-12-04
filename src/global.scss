@@ -24,3 +24,320 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+//Importando fontes utilizadas no aplicativo
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+//Definindo fonte padrão
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+
+//Quebra de linha 
+.wrap{
+    white-space: normal;
+    display: block;
+}
+
+//Formatação para textos maiores que utilizam outra fonte
+.text-big{
+    font-family: 'Bitter', serif;
+}
+.tudo{
+    height: 100%;
+    width: 100%;
+}
+        //TEXT SIZE
+
+//Pequeno
+.peq-size{
+    font-size:15px;
+}
+
+//Pequeno médio
+.peq-med-size{
+    font-size: 16px;
+}
+
+//Médio
+.med-size{
+    font-size: 16.5px;
+}
+
+//Grande
+.big-size{
+    font-size: 20px;
+}
+
+
+//TAMANHOS DE WEIGHT
+
+//Negrito
+.bold{
+    font-weight: 700;
+}
+
+//Semi bold
+.semi-bold{
+    font-weight: 600;
+}
+
+.normal{
+    font-weight: 500;
+}
+
+//Light
+.light{
+    font-weight: 300;
+}
+
+        //ALIGN
+
+//Align center
+.center{
+    text-align: center;
+}
+
+//Center div
+.center-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+//CORES
+
+//Azule color
+.azule{
+    color: #00072D;
+}
+
+//Roxo color
+.roxo{
+    color: #230A21;
+}
+
+
+//Vinho color
+.vinho{
+    color: #510;
+}
+
+//Vermelho color
+.vermelho{
+    color:#da0f0f;
+}
+
+//Laranja color
+.laranja{
+    color: #FE551E;
+}
+
+//Ferugem color
+.ferrugem{
+    color:#4D3700;
+}
+
+//Verde água color
+.vagua{
+    color: #4A7457;
+}
+
+//Cinza escuro color
+.cinzae{
+    color: #242424;
+}
+
+//Cinza claro color
+.cinzac{
+    color: #A8A8A8;
+}
+
+//Snow color
+.snow{
+    color: #fafafa;
+}
+
+//Aquele pretinho de lei em todos os projetos
+.black{
+    color: #000;
+}
+
+
+//BACKGROUNDS COLORS
+
+//Azule bg
+.azule-bg{
+    background: #00072D;
+}
+
+//Roxo bg
+.roxo-bg{
+    background: #230A21;
+}
+
+
+//Vinho bg
+.vinho-bg{
+    background: #510;
+}
+
+//Vermelho bg
+.vermelho-bg{
+    background:#da0f0f;
+}
+
+
+.laranja-bg{
+    background: #FE551E;
+}
+
+//Ferugem bg
+.ferrugem-bg{
+    background:#4D3700;
+}
+
+//Verde água bg
+.vagua-bg{
+    background: #4A7457;
+}
+
+//Cinza escuro bg
+.cinzae-bg{
+    background: #242424;
+}
+
+//Cinza claro bg
+.cinzac-bg{
+    background: #A8A8A8;
+}
+
+//Snow bg
+.snow-bg{
+    background: #fafafa;
+}
+
+//Aquele pretinho de lei em todos os projetos
+.black-bg{
+    background: #000
+}
+
+
+
+        //MARGINS  
+        
+.no-margin{
+    margin:0px;
+}
+.mg-top-3{
+    margin:3px
+}
+.mg-top-5{
+    margin-top: 5px;
+}
+.mg-top-10{
+    margin-top: 10px;
+}
+.mg-top-15{
+    margin-top: 15px;
+}
+.mg-top-20{
+    margin-top: 20px;
+}
+.mg-top-30{
+    margin-top: 30px;
+}
+.mg-top-40{
+    margin-top: 40px;
+}
+.mg-top-50{
+    margin-top:50px;
+}
+.mg-top-60{
+    margin-top:60px;
+}
+.mg-top-70{
+    margin-top: 70px;
+}
+
+        //PADDING
+.no-padding{
+    padding: 0px;
+}
+
+.padding-30{
+    padding:30px;
+}
+
+.padding-40{
+    padding:40px;
+}
+
+.padding-left-right-15{
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.padding-left-right-20{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.padding-left-right-30{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.padding-left-right-40{
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.padding-left-right-70{
+    padding-left:70px;
+    padding-right:70px;
+}
+
+.padding-top-5-percent{
+    padding-top:5%;
+}
+
+.padding-top-10-percent{
+    padding-top:10%;
+}
+
+.padding-top-15-percent{
+    padding-top:15%;
+}
+
+.padding-top-20-percent{
+    padding-top:20%;
+}
+
+.padding-top-30-percent{
+    padding-top:30%;
+}
+
+
+        //Formatação padrão do back button 
+.back-button{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top:20px;
+    margin-left: 20px;
+    color: #fafafa;
+}
+
+.upc{
+    text-transform: uppercase;
+}
+//Mandarc pra longe
+.esconder{
+    opacity: 0;
+    position: absolute;
+    top: -110em;
+    left:-100em;
+}

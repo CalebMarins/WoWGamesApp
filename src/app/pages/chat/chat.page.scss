@@ -1,0 +1,27 @@
+//Formatação de box de mensagem
+.mensagem{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    white-space: pre-wrap;
+}
+
+//Formatação da imagem de fundo do wallpaper
+.wallpaper{
+    height:100%;
+    width:100%;
+    background-image: url(https://www.larutadelsorigens.cat/wallpic/full/15-150136_cars-hd-wallpapers-for-mobile-fresh-full-hd.jpg);
+    background-position: center;
+    margin: 0%;
+    background-size: cover;
+    background-attachment: scroll;
+    display: inline-block;
+    z-index: 1;
+    overflow: auto;
+}
+
+//Formatação do btn voltar Page
+.btn-voltar-page{
+    padding: 13px;
+    font-size: 18px;
+}

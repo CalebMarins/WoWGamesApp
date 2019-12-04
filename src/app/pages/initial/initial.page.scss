@@ -1,0 +1,43 @@
+.img-fundo{
+    height:100%;
+        width:100%;
+        background-image: url(https://i.pinimg.com/originals/b8/a3/cd/b8a3cd1fad69ee87b4a843ca7769f49a.gif);
+        background-position: center;
+        margin: 0%;
+        background-size: cover;
+}
+
+//Formatação do gradiente que cobre a imagem de fundo 
+.overlay{
+
+    background: rgb(0,7,45);
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,7,45,0.6) 4%, rgba(35,10,33,0.7) 21%, rgba(85,17,0,0.5) 50%, rgba(35,10,33,0.7) 81%, rgba(0,7,45,0.6) 96%);
+
+}
+
+//Formatação do text dde boas vindas
+.hello-text{
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+//Formatação para o botão de ajuda
+.help-button{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left:85%;
+}
+
+//Formatacao do btn scan code
+.btn-format{
+    bottom: 0;
+    position: absolute;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left:70px;
+    padding-right: 70px;
+    font-size: 28px;
+    margin-bottom: 80px;
+}
